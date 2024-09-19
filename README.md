@@ -1,1 +1,2 @@
 # Potato-Disease-Classification
+This project focuses on classifying different diseases affecting potato plants using machine learning techniques. The model is trained on a dataset of potato leaf images, implementing computer vision methods to accurately identify diseases such as late blight and early blight. The solution leverages deep learning architectures like CNNs (Convolutional Neural Networks) for image recognition and classification. This tool helps farmers and agriculturists detect diseases early, leading to more efficient crop management.
