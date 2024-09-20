@@ -13,3 +13,12 @@ This project focuses on classifying different diseases affecting potato plants u
 5. **Update the dataset path** in cell #2 to point to your local dataset.
 6. **Run all cells** in the notebook, one by one.
 7. **Save the generated model** in the `models` folder, naming it with the appropriate version number.
+
+## API Input
+
+<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/PlantVillage/Potato___Late_blight/034a54f1-e3e9-4524-a318-9d253d9f1394___RS_LB%202893.JPG">
+
+## API Output
+
+<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/ss/Screenshot%202024-09-19%20222545.jpg">
+
