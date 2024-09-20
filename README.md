@@ -16,7 +16,7 @@ This project focuses on classifying different diseases affecting potato plants u
 
 ## API Input
 
-<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/PlantVillage/Potato___Late_blight/034a54f1-e3e9-4524-a318-9d253d9f1394___RS_LB%202893.JPG">
+<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/PlantVillage/Potato___Late_blight/1cd0b065-e637-4307-9e0a-9c20dc44cc59___RS_LB 4784.JPG">
 
 ## API Output
 
