@@ -24,5 +24,6 @@ This project focuses on classifying different diseases affecting potato plants u
 
 ## Postman Results 
 When a healthy leaf was used as input for prediction, an accuracy of 98% was achieved.
+
 <img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/ss/Screenshot%202024-04-24%20215416.jpg">
 
