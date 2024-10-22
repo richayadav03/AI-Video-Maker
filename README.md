@@ -24,7 +24,7 @@ This project aims at creating a tool that helps to convert web contents into sum
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/web-page-to-video.git
+    git clone https://github.com/richayadav03/AI-Video-Maker.git
     cd web-page-to-video
     ```
 
