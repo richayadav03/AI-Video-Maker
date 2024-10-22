@@ -10,7 +10,7 @@ This project aims at creating a tool that helps to convert web contents into sum
 
 ## Requirements
 - Node.js
-- FFmpeg (with `ffmpeg-static` and `fluent-ffmpeg`)
+- FFmpeg (with `ffmpeg-static` and `fluent-ffmpeg`) - It is an open source multimedia tool that is used for capturing, decoding/encoding or streaming videos and audios, and other related tools with support for numerous formats.
 - External text-to-speech and image generation services
 
 ## Dependencies
