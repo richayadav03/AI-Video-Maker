@@ -1,30 +1,48 @@
 # AI-Video-Maker
-This project focuses on classifying different diseases affecting potato plants using machine learning techniques. The model is trained on a dataset of potato leaf images, implementing computer vision methods to accurately identify diseases such as late blight and early blight. The solution leverages deep learning architectures like CNNs (Convolutional Neural Networks) for image recognition and classification. This tool helps farmers and agriculturists detect diseases early, leading to more efficient crop management.
+This project aims at creating a tool that helps to convert web contents into summarized videos to simplify work. Given a URL it is able to download the content of the page, generate a brief summary of the text as well as add narration using text-to-speech functionality. It also creates visual images known as B-roll according to the content of the page as well as provide written text for subtitles or texts overlay. 
 
-## Training the Model
+## Features
+- **Web Page Parsing**: Automatically extracts and summarizes web page content.
+- **Text-to-Speech**: Converts the summarized text into a voiceover using external services or libraries.
+- **B-roll Image Generation**: Generates relevant images based on the page content.
+- **Subtitles**: Adds subtitles or text overlays based on the summarized content.
+- **Video Creation**: Uses FFmpeg to combine voiceover, images, and subtitles into a complete video file.
 
-1. **Download the dataset** from [Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
-2. **Keep only the folders** related to potato diseases.
-3. **Run Jupyter Notebook** in your browser:
+## Requirements
+- Node.js
+- FFmpeg (with `ffmpeg-static` and `fluent-ffmpeg`)
+- External text-to-speech and image generation services
+
+## Dependencies
+- **@gptscript-ai/gptscript**: For generating summaries or interacting with AI models.
+- **ffmpeg-static** and **fluent-ffmpeg**: To manage and process media content.
+- **express** and **cors**: For handling HTTP requests and cross-origin resource sharing.
+- **dotenv**: For managing environment variables.
+- **uniqid**: To generate unique identifiers for files or requests.
+- **path** and **fs**: For file system and path handling.
+
+## Installation
+1. Clone the repository:
     ```bash
-    jupyter notebook
+    git clone https://github.com/your-username/web-page-to-video.git
+    cd web-page-to-video
     ```
-4. **Open** the file `training/potato-disease-training.ipynb`.
-5. **Update the dataset path** in cell #2 to point to your local dataset.
-6. **Run all cells** in the notebook, one by one.
-7. **Save the generated model** in the `models` folder, naming it with the appropriate version number.
 
-## API Input
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/PlantVillage/Potato___Late_blight/1cd0b065-e637-4307-9e0a-9c20dc44cc59___RS_LB 4784.JPG">
+3. Ensure FFmpeg is installed and available on your system.
 
-## API Output
+## Usage
+1. Run the script by providing the URL of the webpage to convert:
+    ```bash
+    node generateVideo.js <webpage_url>
+    ```
 
-<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/ss/Screenshot%202024-09-19%20222545.jpg">
+## License
+[MIT License](LICENSE)
 
-## Postman Results 
-When a healthy leaf was used as input for prediction, a confidence of 98% was achieved.
 
-<img width="551" alt="image" src="https://github.com/richayadav03/Potato-Disease-Classification/blob/main/potato-disease/ss/Screenshot%202024-04-24%20215416.jpg">
 
-# AI-Video-Maker
